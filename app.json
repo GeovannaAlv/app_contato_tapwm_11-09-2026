@@ -15,13 +15,21 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.geovannaalv.app_contato_tapwm_11092026"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-      "expo": { 
-    "plugins": ["expo-router"] 
-  }
+    "expo": {
+      "plugins": [
+        "expo-router"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66c629ba-6e0d-4ec2-8a79-3df6133ffc56"
+      }
+    }
   }
 }
